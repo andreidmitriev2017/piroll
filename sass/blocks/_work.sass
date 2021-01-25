@@ -1,0 +1,78 @@
+.work
+    font-family: "Montserrat"
+    min-height: 939px
+    &__header
+        min-height: 240px
+        background-color: #10c9c3
+    &__header-container
+        min-height: 240px
+        display: flex
+        justify-content: space-between
+        align-items: center  
+        width: 1078px
+        max-width: 100%
+    &__header-item
+        display: flex
+        align-items: center
+        // margin-right: 69px
+        &__last-child
+            margin-right: 0
+    &__icon
+        width: auto
+        margin-right: 27px
+    &__num
+        font-size: 18px
+        line-height: 30px
+        font-weight: 500
+        text-transform: uppercase
+        letter-spacing: 0.03em
+        color: #ffffff
+    &__descr
+        font-size: 12px
+        line-height: 30px
+        font-weight: 500
+        text-transform: uppercase
+        letter-spacing: 0.1em
+        color: #ffffff
+    &__gallery
+        margin: 0 auto
+        display: flex
+        width: 1366px
+        max-width: 100%
+        height: 599px
+        min-height: 599px
+        &-item
+            display: flex
+            flex-wrap: wrap
+            width: 50%
+    &__sq
+        width: 50%
+        min-height: 50%
+        &_wh
+            background-color: #dddddd
+        &_bl
+            background-color: #838383
+        &_active
+            position: relative
+    &__btn
+        width: 100%
+        height: 100px
+        background-color: #f5f5f5
+        font-size: 12px
+        line-height: 12px
+        font-weight: 500
+        text-transform: uppercase
+        letter-spacing: 0.1em
+        color: #8e8e8e
+        border: none
+        outline: none
+.overlay
+    display: flex
+    align-items: center
+    justify-content: center
+    position: absolute
+    top: 0
+    bottom: 0
+    left: 0
+    right: 0
+    background-color: rgba(20, 20, 20, 0.85)
